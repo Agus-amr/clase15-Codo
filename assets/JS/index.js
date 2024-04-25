@@ -13,3 +13,12 @@ function sumaDeNros (n1, n2) {
 let sumaTotal = sumaDeNros (firstNum, secondNum)
 
 document.write (`<h2> La suma total es de : ${sumaTotal} </h2>`)
+
+//otra forma:
+
+const restaDeNros = function (n1, n2) {
+    return n1 - n2
+}
+restaDeNros (firstNum, secondNum)
+
+document.write (`<h2> La resta total es de : ${restaDeNros} </h2>`)
